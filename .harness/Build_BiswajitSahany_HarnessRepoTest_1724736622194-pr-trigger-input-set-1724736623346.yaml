@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_BiswajitSahany_HarnessRepoTest_1724736622194-pr-trigger-input-set
+  identifier: Build_BiswajitSahany_HarnessRepoTest_1724736622194prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Sample_POC
+  pipeline:
+    identifier: Build_BiswajitSahany_HarnessRepoTest_1724736622194
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
